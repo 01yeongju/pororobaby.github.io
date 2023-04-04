@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPage</title>
+
+    <!-- style.css 파일의 스타일링 적용 -->
+    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- nav -->
+    <nav>
+        <audio controls class="music">
+            <source src="music.mp3" controls autoplay>            
+        </audio>
+
+        <div class="container">
+            <h1 class="nav-logo"><a href="./index.html">Yeongju's Page</a></h1>
+            <div class="nav-menu">
+                <ul class="nav-btn">
+                    <li><a href="./index.html">홈</a></li>
+                    <li><a href="#">소개</a></li>
+                    <li><a href="https://github.com/pororobaby" target="_blank">github</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- header -->
+    <header class="hd">
+        <div class="container">
+            <h2 class="hd-title">My Profile</h2>
+
+            <div class="hd-profile">
+                <img src="./me.jpg" width="250px" alt="사진">
+            </div>
+
+            <!-- <ul class="hd-content">
+                <li>name : Lee yeong ju</li>
+                <li>major : Information and Communication Engineering</li>
+                <li>grade : 4</li>
+                <li>MBTI : ISTJ</li>
+            </ul> -->
+
+            <div class="hd-content">
+                <p class="hd-content2"><i class="fas fa-angle-right"></i> NAME : Lee yeong ju</p>
+                <p class="hd-content2"><i class="fas fa-angle-right"></i> MAJOR : Information and Communication Engineering</p>
+                <p class="hd-content2"><i class="fas fa-angle-right"></i> GRADE : 4</p>
+                <p class="hd-content2"><i class="fas fa-angle-right"></i> MBTI : ISTJ</p>
+                <p class="hd-content2"><i class="fas fa-angle-right"></i> PLAYLIST : Monsters - Katie Sky</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- section -->
+    <section class="sec">
+        <h1>버킷리스트</h1>
+        <div class="container">
+
+            <article class="artc">
+                <div class="card-img">
+                    <img src="./cat1.jpg" alt="이미지1">
+                </div>
+                <p>1. 잠자기</p>
+            </article>
+
+            <article class="artc">
+                <div class="card-img">
+                    <img src="./cat2.jpg" alt="이미지2">
+                </div>
+                <p>2. 운동하기</p>
+            </article>
+
+            <article class="artc">
+                <div class="card-img">
+                    <img src="./cat3.jpg" alt="이미지3">
+                </div>
+                <p>3. 뒹굴기</p>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="ft">
+        <div class="container">
+            <p>&copy; 2023 LIKELION. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
